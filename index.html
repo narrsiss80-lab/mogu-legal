@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>모구 (모두의 구역) — 서울 재개발 지도</title>
+<meta name="description" content="서울 재개발·재건축 구역과 진행현황, 실거래가, 매물을 지도에서 한눈에. 제이케이앤컴퍼니가 운영하는 정비사업 정보 앱 '모구'." />
+<meta property="og:title" content="모구 (모두의 구역) — 서울 재개발 지도" />
+<meta property="og:description" content="서울 재개발·재건축 구역과 진행현황, 실거래가, 매물을 지도에서 한눈에." />
+<meta property="og:type" content="website" />
+<meta name="google-site-verification" content="6oaql4HjunWJ_FJOBcKPQQb9fa8A6CpYvgDzfaorbto" />
+<style>
+  :root{ --cream:#F4E9D6; --cream2:#E1C9A9; --purple:#7B61FF; --ink:#2A231E; --mut:#7B6C5A; }
+  *{ box-sizing:border-box; }
+  body{ margin:0; font-family:-apple-system,"Apple SD Gothic Neo","Malgun Gothic",sans-serif; color:var(--ink); background:#fff; line-height:1.6; }
+  a{ color:var(--purple); text-decoration:none; }
+  .wrap{ max-width:960px; margin:0 auto; padding:0 20px; }
+  header{ display:flex; align-items:center; justify-content:space-between; padding:16px 0; }
+  .brand{ display:flex; align-items:center; gap:10px; font-weight:800; font-size:18px; }
+  .brand img{ width:34px; height:34px; border-radius:8px; }
+  nav a{ color:var(--mut); font-size:14px; margin-left:16px; }
+  .hero{ background:linear-gradient(160deg,#F7ECD9,#E1C9A9); padding:56px 0 64px; text-align:center; }
+  .hero img.appicon{ width:104px; height:104px; border-radius:24px; box-shadow:0 8px 24px rgba(80,60,40,.25); }
+  .hero h1{ font-size:34px; margin:22px 0 6px; letter-spacing:-.5px; }
+  .hero .tag{ color:var(--purple); font-weight:800; font-size:18px; margin-bottom:14px; }
+  .hero p{ color:var(--mut); max-width:560px; margin:0 auto 22px; }
+  .badge{ display:inline-block; background:var(--purple); color:#fff; font-weight:700; padding:11px 22px; border-radius:24px; font-size:15px; }
+  section{ padding:52px 0; }
+  h2{ font-size:24px; text-align:center; margin:0 0 28px; }
+  .grid{ display:grid; grid-template-columns:repeat(2,1fr); gap:18px; }
+  .card{ background:#faf7f2; border:1px solid #efe6d8; border-radius:16px; padding:22px; }
+  .card .emoji{ font-size:30px; }
+  .card h3{ margin:10px 0 6px; font-size:17px; }
+  .card p{ margin:0; color:var(--mut); font-size:14px; }
+  .company{ background:#faf7f2; }
+  .company table{ width:100%; max-width:620px; margin:0 auto; border-collapse:collapse; }
+  .company th{ text-align:left; color:var(--mut); font-weight:600; width:150px; padding:9px 0; vertical-align:top; font-size:14px; }
+  .company td{ padding:9px 0; font-size:14px; }
+  .legal{ text-align:center; }
+  .legal a{ display:inline-block; margin:0 10px; font-size:14px; }
+  footer{ border-top:1px solid #eee; padding:28px 0; text-align:center; color:#aaa; font-size:13px; }
+  @media(max-width:640px){ .grid{ grid-template-columns:1fr; } .hero h1{ font-size:28px; } }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="brand"><img src="./mogu-icon.png" alt="모구" />모구</div>
+    <nav>
+      <a href="#features">기능</a>
+      <a href="#company">회사</a>
+      <a href="#legal">약관</a>
+    </nav>
+  </header>
+</div>
+
+<div class="hero">
+  <div class="wrap">
+    <img class="appicon" src="./mogu-icon.png" alt="모구 앱 아이콘" />
+    <h1>모구 · 모두의 구역</h1>
+    <div class="tag">서울 재개발 구역과 매물을 한눈에</div>
+    <p>흩어진 서울 재개발·재건축 정비사업 구역 정보를 지도 한 장에 모았어요.
+       구역별 진행 단계, 실거래가, 인증 중개사 매물까지 확인하세요.</p>
+    <span class="badge">Google Play 출시 준비 중</span>
+  </div>
+</div>
+
+<section id="features">
+  <div class="wrap">
+    <h2>주요 기능</h2>
+    <div class="grid">
+      <div class="card"><div class="emoji">🗺️</div><h3>지도에서 한눈에</h3><p>정비사업 구역을 지도에 표시하고 유형·진행 단계별로 색으로 구분해요. 위성지도·지적편집도·로드뷰도 지원.</p></div>
+      <div class="card"><div class="emoji">📈</div><h3>구역 진행현황</h3><p>조합설립·사업시행인가·관리처분인가 등 단계별 진행 상황과 주요 일정, 고시·공고를 정리해 제공해요. (공공데이터 기반)</p></div>
+      <div class="card"><div class="emoji">💰</div><h3>실거래가</h3><p>구역 주변 아파트 실거래가로 재개발 후 가치와 인근 시세를 참고할 수 있어요.</p></div>
+      <div class="card"><div class="emoji">🏠</div><h3>매물</h3><p>인증된 공인중개사가 등록한 매물을 살펴보고 문의하세요. 허위매물 신고로 더 믿을 수 있게.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="company" class="company">
+  <div class="wrap">
+    <h2>회사 정보</h2>
+    <table>
+      <tr><th>운영</th><td>제이케이앤컴퍼니 유한회사 (JKANDCOMPANY)</td></tr>
+      <tr><th>대표이사</th><td>봉정균</td></tr>
+      <tr><th>사업자등록번호</th><td>229-86-02923</td></tr>
+      <tr><th>주소</th><td>경기도 용인시 수지구 현암로 148, 602호 (죽전동, 죽전스카이프라자)</td></tr>
+      <tr><th>문의</th><td><a href="mailto:narrsiss80@gmail.com">narrsiss80@gmail.com</a></td></tr>
+    </table>
+  </div>
+</section>
+
+<section id="legal" class="legal">
+  <div class="wrap">
+    <h2>약관 및 정책</h2>
+    <a href="./terms.html">이용약관</a>
+    <a href="./privacy.html">개인정보처리방침</a>
+    <a href="./account-deletion.html">계정·데이터 삭제</a>
+  </div>
+</section>
+
+<footer>
+  © 2026 제이케이앤컴퍼니 (JKANDCOMPANY). All rights reserved.
+</footer>
+</body>
+</html>
